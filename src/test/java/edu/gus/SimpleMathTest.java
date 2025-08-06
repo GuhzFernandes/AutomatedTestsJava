@@ -96,4 +96,14 @@ public class SimpleMathTest {
         //Validating
         Assertions.assertEquals(expected, value);
     }
+
+    @Test
+    public void testArithmeticException() {
+        //Setting up variables
+        Double firstNumber = 3D;
+        Double secondNumber = 0D;
+
+        //Executing and Validating
+        Assertions.assertThrows(ArithmeticException.class, () -> {simpleMath.division(firstNumber, secondNumber);});
+    }
 }
