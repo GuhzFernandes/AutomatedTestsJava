@@ -1,6 +1,5 @@
-package edu.gus;
+package edu.gus.simplemath;
 
-import edu.gus.SimpleMath;
 import org.junit.jupiter.api.*;
 
 public class SimpleMathTest {
