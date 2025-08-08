@@ -38,6 +38,7 @@ public class CourseBusinessTest {
 
     @Test
     public void testCoursesRelatedToSpring_When_UsingMock() {
+        //Arrange
         when(service.retrieveCourses("Gustavo"))
                 .thenReturn(courses);
 

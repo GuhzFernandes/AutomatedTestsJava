@@ -12,6 +12,7 @@
         <java.version>21</java.version>
         <junit.version>6.0.0-M2</junit.version>
         <mockito.version>5.18.0</mockito.version>
+        <mockito-inline.version>5.2.0</mockito-inline.version>
         <hamcrest.version>3.0</hamcrest.version>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
