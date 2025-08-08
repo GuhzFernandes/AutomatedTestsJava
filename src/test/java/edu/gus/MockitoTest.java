@@ -9,6 +9,7 @@ import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.Mockito.*;
 
 public class MockitoTest {
+
     @Test
     public void testMockito_SimpleMockingList() {
         //Arrange
@@ -30,4 +31,37 @@ public class MockitoTest {
         //Assertion
         verify(list).add("Gustavo");
     }
+
+    @Test
+    public void testMockito_MockitoVerifyTimes() {
+        //Arrange
+        List<String> list = mock(List.class);
+        int timesAdd = 2;
+
+        //Act
+        for (int i = 0; i < timesAdd; i++) list.add("Gustavo");
+
+        //Assertion
+        verify(list,times(timesAdd)).add("Gustavo");
+    }
+
+    @Test
+    public void testMockito_MockitoVerifyTimesAtLeast() {
+        //Arrange
+        List<String> list = mock(List.class);
+        int timesAdd = 2;
+        int timesAddAtLeast = 1;
+        int timesAddAtMost = 5;
+
+        //Act
+        for (int i = 0; i < timesAdd; i++) list.add("Gustavo");
+
+        //Assertion
+        verify(list,atLeast(timesAddAtLeast)).add("Gustavo");
+        verify(list,atLeastOnce()).add("Gustavo");
+        verify(list,atMost(timesAddAtMost)).add("Gustavo");
+    }
+
+    
+
 }
