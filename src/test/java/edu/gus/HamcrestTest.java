@@ -10,7 +10,6 @@ import static org.mockito.ArgumentMatchers.anyInt;
 import static org.hamcrest.Matchers.equalTo;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
 
 public class HamcrestTest {
 
@@ -23,7 +22,5 @@ public class HamcrestTest {
         //Act and Assertion
         assertThat(list.get(1),equalTo("Gustavo"));
     }
-
-
 
 }
