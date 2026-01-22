@@ -1,4 +1,4 @@
-package edu.gus;
+package io.github.guhzfernandes;
 
 import org.junit.jupiter.api.Test;
 

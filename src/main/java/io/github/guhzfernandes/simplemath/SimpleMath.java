@@ -1,4 +1,4 @@
-package edu.gus.simplemath;
+package io.github.guhzfernandes.simplemath;
 
 public class SimpleMath {
     public Double sum(Double firstNumber, Double secondNumber) {

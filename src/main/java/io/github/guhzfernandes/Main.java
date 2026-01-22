@@ -1,4 +1,4 @@
-package edu.gus;
+package io.github.guhzfernandes;
 
 public class Main {
     public static void main(String[] args) {

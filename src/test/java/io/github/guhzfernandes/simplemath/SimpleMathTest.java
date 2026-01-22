@@ -1,4 +1,4 @@
-package edu.gus.simplemath;
+package io.github.guhzfernandes.simplemath;
 
 import org.junit.jupiter.api.*;
 

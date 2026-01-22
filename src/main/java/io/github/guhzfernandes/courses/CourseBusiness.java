@@ -1,7 +1,7 @@
-package edu.gus.courses;
+package io.github.guhzfernandes.courses;
 
 
-import edu.gus.courses.services.CourseService;
+import io.github.guhzfernandes.courses.services.CourseService;
 
 import java.util.ArrayList;
 import java.util.List;

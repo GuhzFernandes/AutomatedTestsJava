@@ -1,6 +1,6 @@
-package edu.gus.courses;
+package io.github.guhzfernandes.courses;
 
-import edu.gus.courses.services.CourseService;
+import io.github.guhzfernandes.courses.services.CourseService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

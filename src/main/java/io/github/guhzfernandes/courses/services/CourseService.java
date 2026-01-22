@@ -1,4 +1,4 @@
-package edu.gus.courses.services;
+package io.github.guhzfernandes.courses.services;
 
 import java.util.List;
 
